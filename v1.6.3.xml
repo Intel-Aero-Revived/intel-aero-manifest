@@ -15,7 +15,7 @@
 
   <project name="meta-intel" remote="yocto" revision="9b37952d6af36358b6397cedf3dd53ec8962b6bf" upstream="pyro"/>
   <project name="meta-intel-aero-base" remote="intel-aero" revision="61ecc271ab5f98d05e2bf0b1ebd5ccb929d27160"/>
-  <project name="meta-intel-aero" remote="intel-aero" revision="6f71df9ba6eb29cf8c38826d30652647d5b0b072"/>
+  <project name="meta-intel-aero" remote="intel-aero" revision="4d7d78693e8ade9508689e9ab6d2c078822d6801"/>
 
   <project name="meta-intel-realsense" remote="intel-realsense" revision="1a508562fbc27a8768189dfabd1eec28e577c8ef" upstream="master"/>
 </manifest>
