@@ -10,7 +10,7 @@
   <remote fetch="http://github.com/IntelRealSense/" name="intel-realsense"/>
 
   <project name="poky" remote="yocto" revision="ebb42af2829edfca1a23c7a51a431c656ffc2090" upstream="pyro"/>
-  <project name="meta-virtualization" remote="yocto" revision="45ad257a1e4a6707c376d2f7eb26c3c8bdf03607" upstream="pyro"/>
+  <project name="meta-virtualization" remote="intel-aero" revision="ce63676da438ee41eed5fba03ae9c40c832d7721" upstream="pyro"/>
   <project name="meta-openembedded" remote="oe" revision="b2ce52334cf88e07f703cf25ced92302edd5b0e9"/>
 
   <project name="meta-intel" remote="yocto" revision="9b37952d6af36358b6397cedf3dd53ec8962b6bf" upstream="pyro"/>
