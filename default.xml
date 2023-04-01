@@ -9,15 +9,15 @@
   <remote fetch="https://github.com/intel-aero-revived/" name="intel-aero"/>
   <remote fetch="https://github.com/IntelRealSense/" name="intel-realsense"/>
 
-  <project name="poky" remote="yocto" revision="ebb42af2829edfca1a23c7a51a431c656ffc2090" upstream="pyro"/>
-  <project name="meta-virtualization" remote="intel-aero" revision="ce63676da438ee41eed5fba03ae9c40c832d7721" upstream="pyro"/>
+  <project name="poky" remote="yocto" upstream="pyro"/>
+  <project name="meta-virtualization" remote="intel-aero" upstream="pyro"/>
   <project name="meta-openembedded" remote="oe" revision="b2ce52334cf88e07f703cf25ced92302edd5b0e9"/>
 
-  <project name="meta-intel" remote="yocto" revision="9b37952d6af36358b6397cedf3dd53ec8962b6bf" upstream="pyro"/>
-  <project name="meta-intel-aero-base" remote="intel-aero" revision="61ecc271ab5f98d05e2bf0b1ebd5ccb929d27160"/>
-  <project name="meta-intel-aero" remote="intel-aero" revision="4d7d78693e8ade9508689e9ab6d2c078822d6801"/>
+  <project name="meta-intel" remote="yocto" upstream="pyro"/>
+  <project name="meta-intel-aero-base" remote="intel-aero" upstream="master"/>
+  <project name="meta-intel-aero" remote="intel-aero" upstream="master"/>
 
-  <project name="meta-intel-realsense" remote="intel-realsense" revision="1a508562fbc27a8768189dfabd1eec28e577c8ef" upstream="master"/>
+  <project name="meta-intel-realsense" remote="intel-realsense" upstream="pyro"/>
 </manifest>
 
 <!--
